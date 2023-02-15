@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/styles.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header class="px-2 border-b">
+        <a href="#" class="uppercase text-purple-800 font-bold">WebDev</a>
+        <nav>
+            <ul class="text-gray-500 font-semibold">
+                <li><a class="py-3 px-2 inline-block border-b-2 border-transparent hover:text-purple-600 hover:border-purple-600" href="#">Home</a></li>
+                <li><a class="py-3 px-2 inline-block border-b-2 border-transparent hover:text-purple-600 hover:border-purple-600" href="#">About</a></li>
+                <li><a class="py-3 px-2 inline-block border-b-2 border-transparent hover:text-purple-600 hover:border-purple-600" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Breadcumbs -->
+        <div class="px-2">
+            <div class="py-4 overflow-y-auto whitespace-nowrap">
+                <a href="#" class="text-gray-600 hover:text-gray-900  decoration-gray-700 underline-offset-8">Home</a>
+                 <span class="mx-2 text-gray-500">&gt;</span>
+                <a href="#" class="text-gray-600 hover:text-gray-900  decoration-gray-700 underline-offset-8">News</a>
+                 <span class="mx-2 text-gray-500">&gt;</span>
+                <a href="#" class="text-gray-600 hover:text-gray-900  decoration-gray-700 underline-offset-8">Tech</a>
+            </div>
+        </div>
+        <!-- Divider -->
+        <div class="border border-dotted"></div>
+        <!-- Subscribe -->
+        <div class="my-5">
+            <h5 class="font-bold text-lg uppercase text-gray-700 mb-2">Subscribe</h5>
+            <p class="text-gray-600 mb-4">Subscribe to our newsletter</p>
+            <input 
+                placeholder="your email adress" 
+                class="text-gray-700 bg-gray-100 p-2 w-full border rounded-t hover:border-gray-600" 
+                type="email"
+            >
+        </div>
+        <!-- Divider -->
+        <div class="border border-dotted"></div>
+    </main>
+    <footer class="border-t px-2 mt-10 py-10">
+        <div>
+            <div>
+                <h6 class="font-semibold text-gray-700 mb-4">Company</h6>
+                <ul>
+                    <li><a class="inline-block py-2 text-gray-500 hover:underline" href="">Team</a></li>
+                    <li><a class="inline-block py-2 text-gray-500 hover:underline  decoration-gray-700 underline-offset-8" href="">About us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h6 class="font-semibold text-gray-700 mb-4">Content</h6>
+                <ul>
+                    <li><a class="inline-block py-2 text-gray-500 hover:underline  decoration-gray-700 underline-offset-8" href="">Block</a></li>
+                    <li><a class="inline-block py-2 text-gray-500 hover:underline  decoration-gray-700 underline-offset-8" href="">Policy</a></li>
+                    <li><a class="inline-block py-2 text-gray-500 hover:underline  decoration-gray-700 underline-offset-8" href="">Documentation</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
